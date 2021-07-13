@@ -20,7 +20,7 @@ jobs:
 
     steps:
       - name: QualityClouds CI/CD BuildCheck for Servicenow
-        uses: qualityclouds/action-snow-full-scan@0.0.4
+        uses: qualityclouds/action-snow-full-scan@0.0.5
         with:
           token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImM4ZTlkYzg5MGY2YTk3NDg4Y2UzYjFjMDZkYWY4MjI5NGIzNGYxMTY1NTI0NjFiODU3ODUzNDFiZTllOGYxYjRmYjA0YWNjMjdiYzBkODU0In0.eyJhdWQiOiIyIiwianRpIjoiYzhlOWRjODkwZjZhOTc0ODhjZTNiMWMwNmRhZjgyMjk0YjM0ZjExNjU1MjQ2MWI4NTc4NTM0MWJlOWU4ZjFiNGZiMDRhY2MyN2JjMGQ4NTQiLCJpYXQiOjE2MjYxODAyNjEsIm5iZiI6MTYyNjE4MDI2MSwiZXhwIjoxNjU3NzE2MjYxLCJzdWIiOiIzNyIsInNjb3BlcyI6WyJsaXZlLWNoZWNrIl19.hrZ9mIA5ziUClCsLc007pPFtZxUlKpk6LhEIYNxmznTBZnKeDJkwULqLpYzrNJntSr2mK_j-CWJIjfZG8wWOFD49MPbh86cVP2w2G9zepMtB2T-dB-aJWE5_lKwRXn6guzVE1aXV7g20mNsfONQh3tVC4Fp8-FUKoTSHIH8cvo-afijP8YdnMNE43l5CcGueGhV-W852mHY8fXhXbohYwC8xxKue1pyIBNE6ljMTwwUhfw3mubiM_nyrzYcSTS-t6NLaZ2anVpma-3G_OTQyonWWHxuKgPohIIKCCYDlRikRYb0wArQ48PiCsEdaFSKTiykQl-XvVpD_QgKGBX3PHMfKHDuCJJBt5XCqxMh5hnGT0w2tegIxtHwffsgsnEVqIdnli05E7zvlqrtMBovcTMQYEHc3ebFhB3BuSbiJMqEEA0k5h-dYDhPvnivSfYlP5OfgnhIYD6_v-aqLHi5aPnBUkoI9sry7gzHmsfk2Is-lsDnTc3W6BZkw7bOHwSYIiyvdRXMTVMJMf4qMXSv_6fEYSFmHJ3BtZWHeE73aoKHcPAsMsZTFj3_SWYhP55ke85gheamGKTBK9Xslm2_zd4TNx7gvyci3CiKGfCOVOxf7SIRdPjuBm6W-PEh_9DJA2r9ROVxvd8SuHZFV0UnCkqoSploE6sq1OJt_qGjSmxo'
           instance_url: 'https://ven02284.service-now.com'
