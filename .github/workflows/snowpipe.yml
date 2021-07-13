@@ -19,6 +19,9 @@ jobs:
     # if: ${{ github.event_name == 'pull_request'}}
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
       - name: QualityClouds CI/CD BuildCheck for Servicenow
         uses: qualityclouds/action-snow-full-scan@0.0.5
         with:
