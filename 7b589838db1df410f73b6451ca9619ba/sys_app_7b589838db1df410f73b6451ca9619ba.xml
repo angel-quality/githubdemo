@@ -22,22 +22,22 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Github showcase</short_description>
         <source>7b589838db1df410f73b6451ca9619ba</source>
-        <store_correlation_id>REPOAPP0000417580</store_correlation_id>
+        <store_correlation_id>REPOAPP0000417596</store_correlation_id>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>angel.marquez</sys_created_by>
         <sys_created_on>2021-07-09 12:32:20</sys_created_on>
         <sys_id>7b589838db1df410f73b6451ca9619ba</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>angel.marquez</sys_updated_by>
-        <sys_updated_on>2021-07-13 14:34:24</sys_updated_on>
+        <sys_updated_on>2021-07-13 15:08:15</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.1.24</version>
+        <version>1.1.25</version>
     </sys_app>
 </record_update>
