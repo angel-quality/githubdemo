@@ -26,7 +26,7 @@ jobs:
       - name: QualityClouds CI/CD BuildCheck for Servicenow
         uses: qualityclouds/action-snow-full-scan@0.0.5
         with:
-          token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjViY2UxMjA3ZTI0MGNhYTZlZDI0OGFmZDJkMmRiNmFjYmZlMjZmMDM4YmQ3OWM3ZWE1YWJkNzhjM2FhNDhkNGFmZDZiNTU3OGVjYmUwYzM2In0.eyJhdWQiOiIyIiwianRpIjoiNWJjZTEyMDdlMjQwY2FhNmVkMjQ4YWZkMmQyZGI2YWNiZmUyNmYwMzhiZDc5YzdlYTVhYmQ3OGMzYWE0OGQ0YWZkNmI1NTc4ZWNiZTBjMzYiLCJpYXQiOjE2MjYxODM1MDEsIm5iZiI6MTYyNjE4MzUwMSwiZXhwIjoxNjU3NzE5NTAxLCJzdWIiOiI4OTQiLCJzY29wZXMiOlsibGl2ZS1jaGVjayJdfQ.ZADzHgWFiOV7jaK9J8ejCsFKC7tRAVGbkb3C_SzXFfOInf5I4DdRe-Az1rMUYT24Ms4XOuAtiyiqY8gowyrEw6Wf2JeTuTBZextY9EUn91D7ac_DKtxddxw46Fal6BUcS_U5NRC8yXY6hdJR2XDgoJaZKdjIUQNx0vZh3a-cFl0qB-QYLCKO_qSgcZtq7VmUcYWYSNmIyxaPDzqPQVDqhMzrpqJXxS0UErS-ESyZtLgA7w45G0aA-aXteI3FAUmeLcMPTIU4TR1XFfwpErxiCKcl_BWGZzQeQ4-KF1LqaUBixf206-XAfciHGuupo9DkNsKwOszYY3R2AQK8fMnBxEX6YCDTGvuqZGOL5urzNYlDVK6fDs_ZEvtZ16obvItIU7eK-aKMoKySv3qFk2Y5cuPvUeXyeEWl_fbckLLFEO8u0oocZqWDe06OI09p-Cl5P75nznsukK1AijWS4WQVdOW6W1NtCY8i_pWxqoxpCELdNvctmt4DSM9ukcVlbprE9vitJ2wHoZ-uHZv4pbs2mWT9OaDmRy1lpQ2JgCKJNaEhRPBESxnOxeHWzNa3hNXWhkwISzgVu9q3HaVUVFf4fLZe8Zut8yzW_ZwoDLlaihYZmmtU3zrRbY9r8lr2a6mOlRrpUf2MRe7Et4zxkUMxWPM-_CBrZyZOY5KpK_a9xaU'
+          token: ${{ secrets.QC_TOKEN }}
           instance_url: 'https://ven02284.service-now.com'
           api_url: 'https://services-development.qualityclouds.com'
           
