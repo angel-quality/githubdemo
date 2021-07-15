@@ -10,7 +10,8 @@ on:
 
 jobs:
   build:
-    # Purpose of this job is to Apply Remote Changes for the branch triggering 
+    # Purpose of this job is to Check the Quality of changes,
+    # then Apply Remote Changes for the branch triggering 
     # the pipeline build to the Dev instance, then publish the application to 
     # app repo using the template versioning format. 
     name: Publish from Dev
@@ -19,7 +20,25 @@ jobs:
     # if: ${{ github.event_name == 'pull_request'}}
 
     steps:
-
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: QualityClouds CI/CD BuildCheck for Servicenow
+        uses: qualityclouds/action-snow-full-scan@0.0.5
+        with:
+          token: ${{ secrets.QC_TOKEN }}
+          instance_url: 'https://ven02284.service-now.com'
+          api_url: 'https://services-development.qualityclouds.com'
+          
+      - name: Slack Notification
+        if: ${{ failure() }}
+        uses: slackapi/slack-github-action@v1.15.0
+        with:
+          channel-id: 'C010SJZGLR1'  # Slack channel id to post message
+          slack-message: 'Application deployment stopped due to Quality Gate FAIL'
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          
       - name: ServiceNow CI/CD Apply Changes
         uses: ServiceNow/sncicd-apply-changes@1.0.0
         env:
@@ -75,9 +94,9 @@ jobs:
           # Default: false
           autoUpgradeBaseApp: true
         env:
-          snowUsername: ${{ secrets.SN_USERNAME }}
-          snowPassword: ${{ secrets.SN_PASSWORD }}
-          snowInstallInstance: ${{ secrets.SN_TEST_INSTANCE }}
+          nowUsername: ${{ secrets.SN_USERNAME }}
+          nowPassword: ${{ secrets.SN_PASSWORD }}
+          nowInstallInstance: ${{ secrets.SN_TEST_INSTANCE }}
           appSysID: ${{ secrets.SN_APP_SYSID }}
 
       - name: ServiceNow CI/CD Run ATF Test Suite
@@ -85,9 +104,9 @@ jobs:
         with:
           testSuiteSysId: ${{ secrets.SN_ATFTESTSUITE_SYSID }}
         env:
-          snowUsername: ${{ secrets.SN_USERNAME }}
-          snowPassword: ${{ secrets.SN_PASSWORD }}
-          snowInstallInstance: ${{ secrets.SN_TEST_INSTANCE }}
+          nowUsername: ${{ secrets.SN_USERNAME }}
+          nowPassword: ${{ secrets.SN_PASSWORD }}
+          nowInstallInstance: ${{ secrets.SN_TEST_INSTANCE }}
 
       - name: ServiceNow CI/CD Rollback App
         if: ${{ failure() && steps.install_app.outputs.rollbackVersion }}
@@ -95,9 +114,9 @@ jobs:
         with:
           version: ${{steps.install_app.outputs.rollbackVersion}}
         env:
-          snowUsername: ${{ secrets.SN_USERNAME }}
-          snowPassword: ${{ secrets.SN_PASSWORD }}
-          snowInstallInstance: ${{ secrets.SN_TEST_INSTANCE }}
+          nowUsername: ${{ secrets.SN_USERNAME }}
+          nowPassword: ${{ secrets.SN_PASSWORD }}
+          nowInstallInstance: ${{ secrets.SN_TEST_INSTANCE }}
           appSysID: ${{ secrets.SN_APP_SYSID }}
 
     # This is required to pass the version number output from Publish App 
@@ -131,7 +150,7 @@ jobs:
           # Default: false
           autoUpgradeBaseApp: true
         env:
-          snowUsername: ${{ secrets.SN_USERNAME }}
-          snowPassword: ${{ secrets.SN_PASSWORD }}
-          snowInstallInstance: ${{ secrets.SN_PROD_INSTANCE }}
+          nowUsername: ${{ secrets.SN_USERNAME }}
+          nowPassword: ${{ secrets.SN_PASSWORD }}
+          nowInstallInstance: ${{ secrets.SN_PROD_INSTANCE }}
           appSysID: ${{ secrets.SN_APP_SYSID }}
