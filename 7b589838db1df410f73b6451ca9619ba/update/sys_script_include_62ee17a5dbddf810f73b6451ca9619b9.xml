@@ -10,8 +10,7 @@
         <script><![CDATA[var gitdemo_script = Class.create();
 gitdemo_script.prototype = {
     initialize: function() {
-		var RELIGION = "Cath";
-		var RELIGION2 = "Hebrew3";
+
     },
 
     type: 'gitdemo_script'
@@ -21,7 +20,7 @@ gitdemo_script.prototype = {
         <sys_created_on>2021-07-12 10:57:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>62ee17a5dbddf810f73b6451ca9619b9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>gitdemo_script</sys_name>
         <sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba">7b589838db1df410f73b6451ca9619ba</sys_package>
         <sys_policy/>
@@ -29,6 +28,6 @@ gitdemo_script.prototype = {
         <sys_scope display_value="githubd">7b589838db1df410f73b6451ca9619ba</sys_scope>
         <sys_update_name>sys_script_include_62ee17a5dbddf810f73b6451ca9619b9</sys_update_name>
         <sys_updated_by>angel.marquez</sys_updated_by>
-        <sys_updated_on>2021-07-13 13:55:51</sys_updated_on>
+        <sys_updated_on>2021-07-15 11:20:32</sys_updated_on>
     </sys_script_include>
 </record_update>
