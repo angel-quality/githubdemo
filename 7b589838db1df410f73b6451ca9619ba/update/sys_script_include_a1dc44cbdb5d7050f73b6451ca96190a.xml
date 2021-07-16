@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.gitdemo3_si</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>gitdemo3_si</name>
+        <script><![CDATA[var gitdemo3_si = Class.create();
+gitdemo3_si.prototype = {
+    initialize: function() {
+    },
+
+    type: 'gitdemo3_si'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>john.monk</sys_created_by>
+        <sys_created_on>2021-07-16 11:28:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a1dc44cbdb5d7050f73b6451ca96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gitdemo3_si</sys_name>
+        <sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba">7b589838db1df410f73b6451ca9619ba</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="githubd">7b589838db1df410f73b6451ca9619ba</sys_scope>
+        <sys_update_name>sys_script_include_a1dc44cbdb5d7050f73b6451ca96190a</sys_update_name>
+        <sys_updated_by>john.monk</sys_updated_by>
+        <sys_updated_on>2021-07-16 11:28:43</sys_updated_on>
+    </sys_script_include>
+</record_update>
