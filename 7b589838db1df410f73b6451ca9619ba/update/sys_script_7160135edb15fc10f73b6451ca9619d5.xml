@@ -28,7 +28,7 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	var RELIGION = 'C';
+
 	// Add your code here
 
 })(current, previous);]]></script>
@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7160135edb15fc10f73b6451ca9619d5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>demo1_br_incident</sys_name>
         <sys_overrides/>
         <sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba">7b589838db1df410f73b6451ca9619ba</sys_package>
@@ -47,8 +47,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="githubd">7b589838db1df410f73b6451ca9619ba</sys_scope>
         <sys_update_name>sys_script_7160135edb15fc10f73b6451ca9619d5</sys_update_name>
-        <sys_updated_by>john.monk</sys_updated_by>
-        <sys_updated_on>2021-07-15 13:18:33</sys_updated_on>
+        <sys_updated_by>angel.marquez</sys_updated_by>
+        <sys_updated_on>2021-09-23 14:44:49</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
