@@ -28,7 +28,7 @@ jobs:
         with:
           token: ${{ secrets.QC_TOKEN }}
           instance_url: 'https://ven02284.service-now.com'
-          api_url: 'https://services.qualityclouds.com'
+          api_url: 'https://api.qualityclouds.com'
           
       - name: Slack Notification
         if: ${{ failure() }}
