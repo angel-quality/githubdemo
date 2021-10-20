@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>gitdemo_br_incident"ah"</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var day='today';
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>angel.marquez</sys_created_by>
+        <sys_created_on>2021-07-12 11:31:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e7c66feddbddf810f73b6451ca9619c1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>gitdemo_br_incident"ah"</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba">7b589838db1df410f73b6451ca9619ba</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="githubd">7b589838db1df410f73b6451ca9619ba</sys_scope>
+        <sys_update_name>sys_script_e7c66feddbddf810f73b6451ca9619c1</sys_update_name>
+        <sys_updated_by>alex.lleixa</sys_updated_by>
+        <sys_updated_on>2021-10-15 11:07:22</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=e7c66feddbddf810f73b6451ca9619c1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="githubd">7b589838db1df410f73b6451ca9619ba</application>
+        <file_path/>
+        <instance_id>06936f3fdb228bcc563b7236bf96190b</instance_id>
+        <instance_name>ven02284</instance_name>
+        <name>sys_script_e7c66feddbddf810f73b6451ca9619c1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;gitdemo_br_incident"ah"&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var day='today';
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;angel.marquez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-12 11:31:38&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e7c66feddbddf810f73b6451ca9619c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;gitdemo_br_incident"ah"&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba"&gt;7b589838db1df410f73b6451ca9619ba&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="githubd"&gt;7b589838db1df410f73b6451ca9619ba&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_e7c66feddbddf810f73b6451ca9619c1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;alex.lleixa&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-10-15 11:07:22&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e7c66feddbddf810f73b6451ca9619c1"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-154228784</payload_hash>
+        <record_name>gitdemo_br_incident"ah"</record_name>
+        <reverted_from/>
+        <source>f883d467db93e410f73b6451ca9619fd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>alex.lleixa</sys_created_by>
+        <sys_created_on>2021-10-15 11:07:22</sys_created_on>
+        <sys_id>36b0705c1b97fc10b7df1f861a4bcbf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c83a292dc0000001</sys_recorded_at>
+        <sys_updated_by>alex.lleixa</sys_updated_by>
+        <sys_updated_on>2021-10-15 11:07:22</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>fab0705caa97fc106241638e0e7230f3</update_guid>
+        <update_guid_history>fab0705caa97fc106241638e0e7230f3:-154228784,32634c80e2137c10c85fbaa48c13961a:51682416,d883cc8077137c108f8e7abea8408a15:0,32634c80e2137c10c85fbaa48c13961a:51682416,0aae081d02f270501f1a72ad39e7ae28:-928060690,dfce881d12f27050ea99801577425ff2:0,0aae081d02f270501f1a72ad39e7ae28:-928060690,54e41016f5a1309055acd02d8290b2cb:756564238,ef5183a278953050429206c1f9cbcb1d:-447942643,4b8187a2ae9530500cc1b78348e03099:0,ef5183a278953050429206c1f9cbcb1d:-447942643,e1a1e5ca60997c10a0c334249c9d8efc:1927258555,e1a1e5ca60997c10a0c334249c9d8efc:1927258555,d13a9182d6997c10187953e4d0494be7:-86387168,d13a9182d6997c10187953e4d0494be7:-86387168,ef56518eae597c1046b6c6da1bed5232:-1511926066,ef56518eae597c1046b6c6da1bed5232:-1511926066,34a75079f3d13c104b66da699415bf4b:1531860713,34a75079f3d13c104b66da699415bf4b:1531860713,0847efad86ddf810d067c542e671cdf1:-1566060993,0a57e72185113c10ff3166808755bebb:82009582,0847efad86ddf810d067c542e671cdf1:-1566060993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>angel.marquez</sys_created_by>
+        <sys_created_on>2021-10-20 13:58:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>36c4151d1d6c440094128496b2510000</sys_id>
+        <sys_metadata>e7c66feddbddf810f73b6451ca9619c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gitdemo_br_incident"ah"</sys_name>
+        <sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba">7b589838db1df410f73b6451ca9619ba</sys_package>
+        <sys_parent display_value="Incident">8a0827f3db220300f73b6451ca96190a</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="githubd">7b589838db1df410f73b6451ca9619ba</sys_scope>
+        <sys_scope_delete display_value="">07b8002351d34000805c98af387a4000</sys_scope_delete>
+        <sys_update_name>sys_script_e7c66feddbddf810f73b6451ca9619c1</sys_update_name>
+        <sys_update_version display_value="sys_script_e7c66feddbddf810f73b6451ca9619c1">36b0705c1b97fc10b7df1f861a4bcbf4</sys_update_version>
+        <sys_updated_by>angel.marquez</sys_updated_by>
+        <sys_updated_on>2021-10-20 13:58:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
