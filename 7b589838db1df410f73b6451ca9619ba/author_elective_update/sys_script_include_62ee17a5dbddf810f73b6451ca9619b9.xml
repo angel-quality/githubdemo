@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.gitdemo_script</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>gitdemo_script</name>
+        <script><![CDATA[var gitdemo_script = Class.create();
+gitdemo_script.prototype = {
+    initialize: function() {
+
+    },
+
+    type: 'gitdemo_script'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>angel.marquez</sys_created_by>
+        <sys_created_on>2021-07-12 10:57:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>62ee17a5dbddf810f73b6451ca9619b9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>gitdemo_script</sys_name>
+        <sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba">7b589838db1df410f73b6451ca9619ba</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="githubd">7b589838db1df410f73b6451ca9619ba</sys_scope>
+        <sys_update_name>sys_script_include_62ee17a5dbddf810f73b6451ca9619b9</sys_update_name>
+        <sys_updated_by>angel.marquez</sys_updated_by>
+        <sys_updated_on>2021-07-15 11:20:32</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="githubd">7b589838db1df410f73b6451ca9619ba</application>
+        <file_path/>
+        <instance_id>06936f3fdb228bcc563b7236bf96190b</instance_id>
+        <instance_name>ven02284</instance_name>
+        <name>sys_script_include_62ee17a5dbddf810f73b6451ca9619b9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.gitdemo_script&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;gitdemo_script&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var gitdemo_script = Class.create();
+gitdemo_script.prototype = {
+    initialize: function() {
+
+    },
+
+    type: 'gitdemo_script'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;angel.marquez&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-12 10:57:08&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;62ee17a5dbddf810f73b6451ca9619b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;gitdemo_script&lt;/sys_name&gt;&lt;sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba"&gt;7b589838db1df410f73b6451ca9619ba&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="githubd"&gt;7b589838db1df410f73b6451ca9619ba&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_62ee17a5dbddf810f73b6451ca9619b9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;angel.marquez&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-15 11:20:32&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1911536873</payload_hash>
+        <record_name>gitdemo_script</record_name>
+        <reverted_from/>
+        <source>b3a1cba2db953050f73b6451ca961925</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>angel.marquez</sys_created_by>
+        <sys_created_on>2021-07-15 11:21:31</sys_created_on>
+        <sys_id>c9b10fa2db953050f73b6451ca961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aa9e679cd0000001</sys_recorded_at>
+        <sys_updated_by>angel.marquez</sys_updated_by>
+        <sys_updated_on>2021-07-15 11:21:31</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f27147a212953050471cc4ba2a719e34</update_guid>
+        <update_guid_history>f27147a212953050471cc4ba2a719e34:-1911536873,478187a2bd9530503b74cfd80be821a0:0,f27147a212953050471cc4ba2a719e34:-1911536873,0ed1d50ae7597c10245748eeb33fed3f:-1656039367,4ef1d90a45597c10e94c75b543872588:0,0ed1d50ae7597c10245748eeb33fed3f:-1656039367,f64c4d4245597c1060068d5b11c4bc50:215822362,075c8d42ea597c101a70edb808fd7dda:0,f64c4d4245597c1060068d5b11c4bc50:215822362,85b2d4fda3913c10c8e0104c3325a0b8:-1716876338,ebd21871f4d13c10dbcadebcb8955132:0,85b2d4fda3913c10c8e0104c3325a0b8:-1716876338,e25f5725d4ddf810a683e74e60c9eb2c:-1226349053,ba9f93e536ddf8104d2eb0f75838a821:-1545714057,e25f5725d4ddf810a683e74e60c9eb2c:-1226349053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>angel.marquez</sys_created_by>
+        <sys_created_on>2021-10-20 14:17:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>284c044449554f23a7ba8f6bf5328dc1</sys_id>
+        <sys_metadata>62ee17a5dbddf810f73b6451ca9619b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gitdemo_script</sys_name>
+        <sys_package display_value="githubd" source="7b589838db1df410f73b6451ca9619ba">7b589838db1df410f73b6451ca9619ba</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="githubd">7b589838db1df410f73b6451ca9619ba</sys_scope>
+        <sys_scope_delete display_value="">07b8002351d34000805c98af387a4000</sys_scope_delete>
+        <sys_update_name>sys_script_include_62ee17a5dbddf810f73b6451ca9619b9</sys_update_name>
+        <sys_update_version display_value="sys_script_include_62ee17a5dbddf810f73b6451ca9619b9">c9b10fa2db953050f73b6451ca961937</sys_update_version>
+        <sys_updated_by>angel.marquez</sys_updated_by>
+        <sys_updated_on>2021-10-20 14:17:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
